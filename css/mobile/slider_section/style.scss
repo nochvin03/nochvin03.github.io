@@ -1,0 +1,130 @@
+$main-color: rgb(126, 193, 193);
+
+.slider_section {
+   background-color: $main-color;
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+}
+.slider_section_dark {
+   background-color: #4e5052;
+}
+.slider_section__title {
+   font-size: 4em;
+   color: rgb(246, 237, 216);
+   font-family: "SeasideResortNF";
+   text-align: center;
+   margin-top: 20px;
+}
+
+.slider_section__old-style {
+   background-image: url("../icon/icon__old-style.png");
+   background-size: 100% 100%;
+   width: 100%;
+   height: 50px;
+   margin-bottom: 30px;
+}
+.slider_section__old-style__text {
+   position: relative;
+   text-align: center;
+   font-size: 0.7em;
+   color: rgb(75, 78, 76);
+   top: 32%;
+   font-family: "Bazar";
+}
+
+.slider {
+   background-color: #fff;
+   width: 69%;
+   height: auto;
+   padding: 1%;
+   box-sizing: border-box;
+}
+.slides {
+   background-color: #333;
+   width: 100%;
+   height: 90%;
+   max-height: 90%;
+   overflow: hidden;
+   position: relative;
+   margin-bottom: 2%;
+}
+
+.slides__btn {
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 2;
+}
+@mixin slider__btn {
+   background-color: #fff;
+   width: 15px;
+   height: 30px;
+   position: relative;
+   cursor: pointer;
+}
+@mixin slider__btn_before {
+   content: "";
+   position: absolute;
+   background-image: url("../icon/navigate-next.svg");
+   background-size: 100% 100%;
+   width: 30px;
+   height: 30px;
+}
+.slider__btn_prev {
+   @include slider__btn;
+   border-radius: 0 25px 25px 0;
+}
+.slider__btn_prev > img {
+   @include slider__btn_before;
+   transform: rotateY(180deg);
+   left: -10px;
+}
+.slider__btn_next {
+   @include slider__btn;
+   border-radius: 25px 0 0 25px;
+}
+.slider__btn_next > img {
+   @include slider__btn_before;
+   left: -5px;
+}
+.slides__imgs {
+   width: 100%;
+   height: 300px;
+}
+.slides__imgs > img {
+   width: 100%;
+   height: 100%;
+}
+.slider__text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.slider__text > p {
+   font-size: 0.8em;
+   font-family: "Bazar";
+   color: rgb(56, 58, 60);
+   text-align: center;
+}
+
+.slider_section__introduce__text {
+   text-align: center;
+   font-size: 1.5em;
+   top: 32%;
+   font-family: "Bazar";
+   color: rgb(247, 235, 216);
+   margin: 50px 0;
+   line-height: 1.415;
+}
+.slider_section__introduce__text div {
+   font-size: 1em;
+}
