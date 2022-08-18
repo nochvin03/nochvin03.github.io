@@ -1,0 +1,7 @@
+@import url("./mobile/style.css");
+@import url("./dekstop/style.css") screen and (orientation: landscape) and
+   (min-aspect-ratio: 16/9);
+
+* {
+   transition: background 0.6s linear;
+}
