@@ -1,0 +1,113 @@
+.about_section {
+  background-color: #dcd7c7;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  gap: 20px;
+}
+
+.about_section_dark {
+  background-color: #615f57;
+}
+
+.about_section__favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 70%;
+  margin-bottom: 50px;
+}
+
+.favorite {
+  width: 15%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.favorite img {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.favorite__title {
+  font-size: 2em;
+  font-family: "Bazar";
+  color: #383a3c;
+}
+
+.favorite__subtitle {
+  font-size: 1em;
+  font-family: "Roboto Slab", serif;
+  color: #383a3c;
+}
+
+.favorite__sep {
+  border-top: 2px solid #000;
+  width: 30%;
+  height: 1px;
+}
+
+.favorite__text {
+  font-family: "Roboto Slab", serif;
+  color: #383a3c;
+}
+
+.about_section_dark > .section__title {
+  color: #f6edd8;
+}
+
+.about_section_dark > .section__subtitle {
+  color: #f6edd8;
+}
+
+.about_section_dark .favorite__title {
+  color: #f6edd8;
+}
+
+.about_section_dark .favorite__subtitle {
+  color: #f6edd8;
+}
+
+.about_section_dark .favorite__sep {
+  border-top: 2px solid #f6edd8;
+}
+
+.about_section_dark .favorite__text {
+  color: #f6edd8;
+}
+/*# sourceMappingURL=style.css.map */
