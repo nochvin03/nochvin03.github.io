@@ -1,0 +1,169 @@
+.slider_section {
+  background-color: #7ec1c1;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slider_section_dark {
+  background-color: #4e5052;
+}
+
+.slider_section__title {
+  font-size: 7em;
+  color: #f6edd8;
+  font-family: "SeasideResortNF";
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slider_section__old-style {
+  background-image: url("../icon/icon__old-style.png");
+  background-size: 100% 100%;
+  width: 45%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.slider_section__old-style__text {
+  position: relative;
+  text-align: center;
+  font-size: 1em;
+  color: #4b4e4c;
+  top: 32%;
+  font-family: "Bazar";
+}
+
+.slider {
+  background-color: #fff;
+  width: 69%;
+  height: 100%;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slides {
+  background-color: #333;
+  width: 100%;
+  height: 90%;
+  max-height: 90%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.slides__btn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+}
+
+.slider__btn_prev {
+  background-color: #fff;
+  width: 30px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+}
+
+.slider__btn_prev > img {
+  content: "";
+  position: absolute;
+  background-image: url("../icons/navigate-next.svg");
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  left: -15px;
+}
+
+.slider__btn_next {
+  background-color: #fff;
+  width: 30px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px 0 0 25px;
+}
+
+.slider__btn_next > img {
+  content: "";
+  position: absolute;
+  background-image: url("../icons/navigate-next.svg");
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  left: -5px;
+}
+
+.slides__imgs {
+  width: 100%;
+  height: 800px;
+}
+
+.slides__imgs > img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__text > p {
+  font-size: 44px;
+  font-family: "Bazar";
+  color: #383a3c;
+  text-align: center;
+}
+
+.slider_section__introduce__text {
+  text-align: center;
+  font-size: 2em;
+  top: 32%;
+  font-family: "Bazar";
+  color: #f7ebd8;
+  margin: 50px 0;
+  line-height: 1.415;
+}
+
+.slider_section__introduce__text div {
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=style.css.map */
