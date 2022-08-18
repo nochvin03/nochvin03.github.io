@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>JD | Retro</title>
+      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="shortcut icon" href="icon/favicon.png" type="image/x-icon" />
+   </head>
+   <body>
+      <div class="preloader">
+         <div class="anim_section">
+            <div class="anim__block"></div>
+            <div class="anim__block"></div>
+            <div class="anim__block"></div>
+            <div class="anim__block"></div>
+            <div class="anim__loading">
+               <div class="anim__text">Loading</div>
+               <div class="anim__point">.</div>
+               <div class="anim__point">.</div>
+               <div class="anim__point">.</div>
+            </div>
+         </div>
+      </div>
+      <header>
+         <ul class="menu">
+            <li class="menu__item"><a href="#about">ABOUT ME</a></li>
+            <li class="menu__item"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="menu__item menu__logo">JD</li>
+            <li class="menu__item"><a href="#blog">MY BLOG</a></li>
+            <li class="menu__item"><a href="#contact">CONTACT ME</a></li>
+         </ul>
+
+         <div class="theme">
+            <label
+               ><input type="radio" name="theme" id="light" /> Light theme
+            </label>
+            <label
+               ><input type="radio" name="theme" id="dark" /> Dark theme
+            </label>
+         </div>
+
+         <div class="line" style="position: absolute; bottom: 10px"></div>
+      </header>
+      <div class="progress-bar"><div class="progress"></div></div>
+      <div class="slider_section">
+         <div class="slider_section__title">RETRO</div>
+         <div class="slider_section__old-style">
+            <div class="slider_section__old-style__text">
+               OLD STYLE PORTFOLIO
+            </div>
+         </div>
+         <div class="slider">
+            <div class="slides">
+               <div class="slides__imgs"></div>
+               <div class="slides__btn">
+                  <div class="slider__btn_prev" onclick="prevSlide()">
+                     <img src="icon/navigate-next.svg" alt="Error" />
+                  </div>
+                  <div class="slider__btn_next" onclick="nextSlide()">
+                     <img src="icon/navigate-next.svg" alt="Error" />
+                  </div>
+               </div>
+            </div>
+            <div class="slider__text"></div>
+         </div>
+         <div class="slider_section__introduce__text">
+            "HELLO, I AM KUZKO ANDRII <br />
+            <div>WELCOME TO RETRO, MY WONDERFUL THEME!"</div>
+         </div>
+         <div class="line" style="bottom: 10px"></div>
+         <div class="line" style="position: absolute; top: 10px"></div>
+      </div>
+      <div class="about_section">
+         <div class="line" style="top: 10px"></div>
+         <div class="section__title" id="about">ABOUT ME</div>
+         <div class="section__separator about_section__separator">
+            <img src="img/Separator.png" alt="Error" id="about__separator" />
+         </div>
+         <div class="section__subtitle">
+            I AM A FRONT-END DEVELOPER FROM KIEV
+         </div>
+         <div class="about_section__favorite">
+            <div class="favorite">
+               <div class="favorite__logo">
+                  <img src="img/Movies.png" alt="Error" />
+               </div>
+               <div class="favorite__title">MOVIES</div>
+               <div class="favorite__subtitle">WHAT I WATCH</div>
+               <div class="favorite__sup"></div>
+               <div class="favorite__text">
+                  I like to watch <strong>science fiction films</strong>, such
+                  as Marvel films. I also want to watch
+                  <strong>horror movies</strong>.
+               </div>
+            </div>
+
+            <div class="favorite">
+               <div class="favorite__logo">
+                  <img src="img/Music.png" alt="Error" />
+               </div>
+               <div class="favorite__title">MUSIC</div>
+               <div class="favorite__subtitle">WHAT I LISTEN</div>
+               <div class="favorite__sup"></div>
+               <div class="favorite__text">
+                  Basically I like to listen to
+                  <strong>rap and hip hop</strong>. But sometimes I want to
+                  listen to a Bach symphony.
+               </div>
+            </div>
+
+            <div class="favorite">
+               <div class="favorite__logo">
+                  <img src="img/Clothes.png" alt="Error" />
+               </div>
+               <div class="favorite__title">CLOTHES</div>
+               <div class="favorite__subtitle">WHAT I WEAR</div>
+               <div class="favorite__sup"></div>
+               <div class="favorite__text">
+                  I don't wear certain clothes with a special style. I
+                  sympathize with such styles as casual, gorpcore, UK drip,
+                  vintage, sometimes formal style and
+                  <strong>especially streetwear, teachwear, darkwear</strong>.
+               </div>
+            </div>
+
+            <div class="favorite">
+               <div class="favorite__logo">
+                  <img src="img/Food.png" alt="Error" />
+               </div>
+               <div class="favorite__title">FOOD</div>
+               <div class="favorite__subtitle">WHAT I EAT</div>
+               <div class="favorite__sup"></div>
+               <div class="favorite__text">
+                  Basically, I eat almost everything, so it's easier to say what
+                  I <strong>don't eat</strong>, and that's legumes. I also
+                  rarely eat fish, even though I don't mind it. Since I like to
+                  chew something during work, I prefer chips, snacks, popcorn.
+               </div>
+            </div>
+         </div>
+         <div class="line" style="position: absolute; bottom: 10px"></div>
+      </div>
+
+      <div class="portfolio_section">
+         <div class="line" style="top: 10px"></div>
+
+         <div class="section__title" id="portfolio">PORTFOLIO</div>
+         <div class="section__separator portfolio_section__separator">
+            <img
+               src="img/Separator.png"
+               alt="Error"
+               id="portfolio__separator"
+            />
+         </div>
+         <div class="section__subtitle">
+            Simplicity is the ultimate sophistication
+         </div>
+         <div class="portfolio_section__filters">
+            <div class="filters__title">Filter by</div>
+            <div class="filters">
+               <div class="filter" id="design">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">design</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="logo">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">logo</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="photography">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">photography</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="poster">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">poster</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="resources">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">resources</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="t-shirts">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">t-shirts</div>
+                  </div>
+               </div>
+
+               <div class="filter" id="videos">
+                  <div class="triangle"></div>
+                  <div class="filter__item">
+                     <div class="filter__point"></div>
+                     <div class="filter__text">videos</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="portfolio_section__works">
+            <div class="works"></div>
+         </div>
+         <div class="works__sup"></div>
+
+         <div class="line" style="position: absolute; bottom: 10px"></div>
+      </div>
+
+      <div class="blog_section">
+         <div class="line" style="top: 10px"></div>
+
+         <div class="section__title" id="blog">MY BLOG</div>
+         <div class="section__separator blog_section__separator">
+            <img src="img/Separator.png" alt="Error" id="blog__separator" />
+         </div>
+         <div class="section__subtitle">NEWS FROM MY HOUSE</div>
+
+         <div class="blog_section__start-blog">
+            <div class="blog_section__posts"></div>
+         </div>
+         <div class="post__all_sep"></div>
+
+         <div class="line" style="position: absolute; bottom: 10px"></div>
+      </div>
+
+      <div class="contact_section">
+         <div class="line" style="top: 10px"></div>
+
+         <div class="section__title" id="contact">CONTACT ME</div>
+         <div class="section__separator">
+            <img src="img/SeparatorWhite.png" alt="Error" />
+         </div>
+         <div class="section__subtitle">
+            I'LL BE GLAD TO ANSWER YOUR QUESTIONS!
+         </div>
+
+         <div class="form">
+            <form>
+               <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form__name"
+                  placeholder="Name"
+                  required
+                  pattern="[A-Z][a-z]{2,}"
+               />
+               <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form__email"
+                  placeholder="Email"
+                  required
+               />
+               <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  class="form__subject"
+                  placeholder="Subject"
+                  required
+                  pattern="[A-Za-z\s]{1,}"
+               />
+               <textarea
+                  name="message"
+                  id="message"
+                  class="form__message"
+                  placeholder="Your message"
+                  cols="30"
+                  rows="10"
+                  required
+               ></textarea>
+               <input type="submit" value="Send message" class="form__submit" />
+            </form>
+         </div>
+
+         <div class="contact_section__social">
+            <div class="social__title">I AM SOCIAL</div>
+            <div class="social__sup"></div>
+            <div class="social__icons">
+               <ul>
+                  <a href="https://twitter.com/" target="_blank">
+                     <li class="social__icon">
+                        <img src="icon/twitter_icon.png" alt="Error" />
+                     </li>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank">
+                     <li class="social__icon">
+                        <img src="icon/fb_icon.png" alt="Error" />
+                     </li>
+                  </a>
+                  <a href="https://plus.google.com/" target="_blank">
+                     <li class="social__icon">
+                        <img src="icon/gplus_icon.png" alt="Error" />
+                     </li>
+                  </a>
+                  <a href="https://www.pinterest.com/" target="_blank">
+                     <li class="social__icon">
+                        <img src="icon/pinterest_icon.png" alt="Error" />
+                     </li>
+                  </a>
+                  <a href="https://www.linkedin.com/" target="_blank">
+                     <li class="social__icon">
+                        <img src="icon/linkedin_icon.png" alt="Error" />
+                     </li>
+                  </a>
+               </ul>
+            </div>
+         </div>
+
+         <div class="contact_section__api-block">
+            <div class="api__title">WEATHER</div>
+            <div class="form">
+               <form id="weather">
+                  <input
+                     type="text"
+                     name="city"
+                     id="city"
+                     class="form__name"
+                     placeholder="City"
+                     required
+                     pattern="[A-Za-z]{2,}"
+                  />
+                  <input
+                     type="submit"
+                     value="Choose this city"
+                     class="form__submit"
+                  />
+                  <div class="api__result"></div>
+               </form>
+            </div>
+         </div>
+
+         <div class="line" style="position: absolute; bottom: 10px"></div>
+      </div>
+      <div class="happy-anim">
+         <div class="happy-anim__text">Please wait for our answer :)</div>
+         <div class="happy-anim__smile"></div>
+      </div>
+      <script src="js/preloader.js"></script>
+      <script src="js/header.js"></script>
+      <script src="js/slider.js"></script>
+      <script src="js/filter.js"></script>
+      <script src="js/posts.js"></script>
+      <script src="js/contact.js"></script>
+      <script src="js/weather.js"></script>
+   </body>
+</html>
