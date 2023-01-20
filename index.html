@@ -7,6 +7,10 @@
       <title>Document</title>
 
       <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
    </head>
    <body>
       <!-- Banner -->
@@ -35,11 +39,7 @@
          </header>
          <img src="img/bg.jpg" alt="bg.jpg error" />
 
-         <div
-            class="content"
-            data-0-top="opacity:0;left:100px;"
-            data-100-top="opacity:1;left:0px;"
-         >
+         <div class="content wow animate__fadeInDown" data-wow-duration="2s">
             <h2>Sucess by Design</h2>
             <p>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -55,19 +55,13 @@
 
       <!-- About -->
       <section class="about" id="about">
-         <div class="contentBx">
-            <h2
-               class="heading"
-               data-center-center="opacity:1;left:0;"
-               data-0-bottom="opacity:0;left:500px;"
-            >
-               About Us
-            </h2>
-            <p
-               class="text"
-               data-center-center="opacity:1;left:0;"
-               data-0-bottom="opacity:0;left:-500px;"
-            >
+         <div
+            class="contentBx wow animate__fadeInLeft"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+         >
+            <h2 class="heading">About Us</h2>
+            <p class="text">
                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
                dolorem commodi aliquid quos omnis repellendus facere voluptatum
                possimus ad neque eveniet. Ipsum doloribus quis veritatis nulla
@@ -90,42 +84,38 @@
             </p>
          </div>
          <div
-            class="imgBx"
-            data-center-center="opacity:1;left:0;"
-            data-0-bottom="opacity:0;left:200px;"
+            class="imgBx wow animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          ></div>
       </section>
 
       <!-- Services -->
       <section class="services" id="services">
-         <h2
-            class="heading"
-            data-center-center="opacity:1;left:0;"
-            data-0-bottom="opacity:0;left:500px;"
+         <div
+            class="wow animate__fadeInDown"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          >
-            Our Services
-         </h2>
-         <p
-            class="text"
-            data-center-center="opacity:1;right:0;"
-            data-0-bottom="opacity:1;right:500px;"
-         >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit error animi explicabo tenetur tempore ullam quaerat
-            ipsam laborum nesciunt perspiciatis, nam repudiandae accusantium
-            odio qui expedita mollitia repellat? Corrupti quae itaque excepturi
-            repellat animi delectus a dignissimos accusantium iste explicabo id
-            aliquid tenetur facilis saepe tempore soluta, nulla ex sunt sint?
-            Recusandae esse, saepe voluptatibus consequuntur officia cumque ad
-            atque delectus enim eum suscipit doloremque ipsum laborum dolore
-            accusamus est reiciendis a sint fugit velit ullam dolorem dicta
-            dignissimos obcaecati?
-         </p>
+            <h2 class="heading">Our Services</h2>
+            <p class="text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Reprehenderit error animi explicabo tenetur tempore ullam quaerat
+               ipsam laborum nesciunt perspiciatis, nam repudiandae accusantium
+               odio qui expedita mollitia repellat? Corrupti quae itaque
+               excepturi repellat animi delectus a dignissimos accusantium iste
+               explicabo id aliquid tenetur facilis saepe tempore soluta, nulla
+               ex sunt sint? Recusandae esse, saepe voluptatibus consequuntur
+               officia cumque ad atque delectus enim eum suscipit doloremque
+               ipsum laborum dolore accusamus est reiciendis a sint fugit velit
+               ullam dolorem dicta dignissimos obcaecati?
+            </p>
+         </div>
          <div class="container">
             <div
-               class="serviceBx"
-               data-center-center="opacity:1;left:0;"
-               data-0-bottom="opacity:0;left:-400px;"
+               class="serviceBx wow animate__fadeInLeft"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div>
                   <img src="img/icon1.png" alt="icon1.png error" />
@@ -133,9 +123,9 @@
                </div>
             </div>
             <div
-               class="serviceBx"
-               data-center-center="opacity:1;bottom:0;"
-               data-0-bottom="opacity:0;bottom:-400px;"
+               class="serviceBx wow animate__fadeInUp"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div>
                   <img src="img/icon2.png" alt="icon1.png error" />
@@ -143,9 +133,9 @@
                </div>
             </div>
             <div
-               class="serviceBx"
-               data-center-center="opacity:1;right:0;"
-               data-0-bottom="opacity:0;right:-400px;"
+               class="serviceBx wow animate__fadeInRight"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div>
                   <img src="img/icon3.png" alt="icon1.png error" />
@@ -158,9 +148,9 @@
       <!-- Technology -->
       <section class="technology" id="technology">
          <div
-            class="contentBx"
-            data-center-center="opacity:1;left:0;"
-            data-0-bottom="opacity:0;left:-400px;"
+            class="contentBx wow animate__fadeIn"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          >
             <h2 class="heading">We use cutting edge technolog</h2>
             <p class="text">
@@ -177,9 +167,9 @@
             </p>
          </div>
          <div
-            class="imgBx"
-            data-center-center="opacity:1;right:0;"
-            data-0-bottom="opacity:0;right:-400px;"
+            class="imgBx wow animate__fadeIn"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          >
             <img src="img/tech.png" alt="tech.png error" />
          </div>
@@ -187,65 +177,51 @@
 
       <!-- Client -->
       <section class="client" id="client">
-         <h2
-            class="heading"
-            data-center-center="opacity:1;top:0;"
-            data-0-bottom="opacity:0;top:-100px;"
+         <div
+            class="wow animate__fadeInDown"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          >
-            Our Clients
-         </h2>
-         <p
-            class="text"
-            data-center-center="opacity:1;bottom:0;"
-            data-0-bottom="opacity:0;bottom:-100px;"
+            <h2 class="heading">Our Clients</h2>
+            <p class="text">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Expedita minus perferendis cum soluta porro fugiat excepturi
+               corrupti harum quas modi ullam temporibus, odio architecto
+               asperiores animi consequatur laboriosam et quisquam laborum
+               repellendus aut. Blanditiis distinctio alias fugit, vel doloribus
+               veniam suscipit et, pariatur architecto veritatis ut. Eos earum
+               aperiam saepe dolore laborum quis optio, ratione doloribus odio
+               fugit perferendis pariatur tempore dignissimos voluptas placeat
+               voluptatibus omnis. Repellat numquam adipisci tenetur illum,
+               corporis odio, laudantium nam quis minus assumenda nobis fuga.
+            </p>
+         </div>
+         <div
+            class="imgBx wow animate__fadeIn"
+            data-wow-duration="2s"
+            data-wow-offset="10"
          >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-            minus perferendis cum soluta porro fugiat excepturi corrupti harum
-            quas modi ullam temporibus, odio architecto asperiores animi
-            consequatur laboriosam et quisquam laborum repellendus aut.
-            Blanditiis distinctio alias fugit, vel doloribus veniam suscipit et,
-            pariatur architecto veritatis ut. Eos earum aperiam saepe dolore
-            laborum quis optio, ratione doloribus odio fugit perferendis
-            pariatur tempore dignissimos voluptas placeat voluptatibus omnis.
-            Repellat numquam adipisci tenetur illum, corporis odio, laudantium
-            nam quis minus assumenda nobis fuga.
-         </p>
-         <div class="imgBx">
-            <img
-               src="img/brand1.png"
-               alt="brand1.png error"
-               data-center-center="top:0;"
-               data-0-bottom="top:100px;"
-            />
-            <img
-               src="img/brand2.png"
-               alt="brand2.png error"
-               data-center-center="top:0;"
-               data-0-bottom="top:150px;"
-            />
-            <img
-               src="img/brand3.png"
-               alt="brand3.png error"
-               data-center-center="top:0;"
-               data-0-bottom="top:200px;"
-            />
-            <img
-               src="img/brand4.png"
-               alt="brand4.png error"
-               data-center-center="top:0;"
-               data-0-bottom="top:250px;"
-            />
+            <img src="img/brand1.png" alt="brand1.png error" />
+            <img src="img/brand2.png" alt="brand2.png error" />
+            <img src="img/brand3.png" alt="brand3.png error" />
+            <img src="img/brand4.png" alt="brand4.png error" />
          </div>
       </section>
 
       <!-- Testimonials -->
       <section class="testimonials" id="testimonials">
-         <h2 class="heading">What Our Client says</h2>
+         <h2
+            class="heading wow animate__fadeInDown"
+            data-wow-duration="2s"
+            data-wow-offset="10"
+         >
+            What Our Client says
+         </h2>
          <div class="container">
             <div
-               class="contentBx"
-               data-center-center="opacity:1;left:0;"
-               data-0-bottom="opacity:0;left:-400px;"
+               class="contentBx wow animate__fadeInLeft"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div>
                   <p>
@@ -262,9 +238,9 @@
             </div>
 
             <div
-               class="contentBx"
-               data-center-center="opacity:1;right:0;"
-               data-0-bottom="opacity:0;right:-400px;"
+               class="contentBx wow animate__fadeInRight"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div>
                   <p>
@@ -283,29 +259,29 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact" id="contact">
-         <div
-            data-center-center="opacity:1;left:0;"
-            data-0-bottom="opacity:0;left:-400px;"
-         >
-            <h2 class="heading">Contact Us</h2>
-            <p class="text">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
-               cum eius corporis minus molestiae eum quibusdam molestias
-               doloribus eaque ut ex obcaecati, voluptatibus iure culpa sunt. Ex
-               similique cumque voluptatum, porro ipsam provident ad velit rerum
-               facere enim eius quod praesentium, doloribus aut at eligendi
-               eaque cum delectus dignissimos dolor!
-            </p>
-         </div>
+      <section
+         class="contact wow animate__fadeIn"
+         data-wow-duration="2s"
+         data-wow-offset="10"
+         id="contact"
+      >
+         <h2 class="heading">Contact Us</h2>
+         <p class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, cum
+            eius corporis minus molestiae eum quibusdam molestias doloribus
+            eaque ut ex obcaecati, voluptatibus iure culpa sunt. Ex similique
+            cumque voluptatum, porro ipsam provident ad velit rerum facere enim
+            eius quod praesentium, doloribus aut at eligendi eaque cum delectus
+            dignissimos dolor!
+         </p>
       </section>
 
       <section class="about">
          <div class="contentBx redbg">
             <div
-               class="form"
-               data-center-center="opacity:1;left:0;"
-               data-0-bottom="opacity:0;left:-400px;"
+               class="form wow animate__fadeInLeft"
+               data-wow-duration="2s"
+               data-wow-offset="10"
             >
                <div class="inputBx">
                   <input type="text" name="" id="" placeholder="Full Name" />
@@ -350,12 +326,17 @@
          </ul>
       </footer>
 
-      <script src="skrollr.js"></script>
+      <script src="wow.js"></script>
       <script>
-         let s = skrollr.init();
-      </script>
+         wow = new WOW({
+            boxClass: "wow", // default
+            animateClass: "animated", // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true, // default
+         });
+         wow.init();
 
-      <script>
          window.addEventListener("scroll", () => {
             const header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
