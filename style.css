@@ -339,6 +339,10 @@ footer ul li a img {
    max-width: 20px;
 }
 
+section {
+   overflow: hidden;
+}
+
 @media (max-width: 991px) {
    .banner {
       padding: 50px;
