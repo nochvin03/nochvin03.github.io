@@ -4,306 +4,318 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-
+      <title>Personal Portfolio | Responsive Website Design</title>
       <link rel="stylesheet" href="style.css" />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
    </head>
    <body>
-      <!-- Banner -->
-      <div class="banner" id="banner">
-         <header>
-            <a href="#" class="logo">Brand Name</a>
-            <div class="toggle" onclick="toggleMenu()"></div>
-            <ul class="navigation">
-               <li><div class="toggled" onclick="toggleMenu()"></div></li>
-               <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
-               <li><a href="#about" onclick="toggleMenu()">About us</a></li>
-               <li><a href="#services" onclick="toggleMenu()">Services</a></li>
-               <li>
-                  <a href="#technology" onclick="toggleMenu()">Technology</a>
-               </li>
-               <li>
-                  <a href="#client" onclick="toggleMenu()">Our clients</a>
-               </li>
-               <li>
-                  <a href="#testimonials" onclick="toggleMenu()"
-                     >Testimonials</a
-                  >
-               </li>
-               <li><a href="#contact" onclick="toggleMenu()">Contact us</a></li>
-            </ul>
-         </header>
-         <img src="img/bg.jpg" alt="bg.jpg error" />
-
-         <div class="content wow animate__fadeInDown" data-wow-duration="2s">
-            <h2>Sucess by Design</h2>
-            <p>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-               Voluptatum similique cupiditate dolor id dolore ea eum nam et
-               minus, eligendi repudiandae fugit ad est. Ratione dignissimos
-               mollitia laudantium nesciunt harum fuga reiciendis iste
-               temporibus odio quis? Quaerat, excepturi voluptates iste animi
-               optio ratione eos possimus veritatis quae numquam repudiandae
-               qui.
-            </p>
-         </div>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <div class="sidebar">
+         <ul class="sidebar__menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+         </ul>
       </div>
 
-      <!-- About -->
+      <section class="banner" id="home">
+         <div class="banner__imgSidebar">
+            <img src="./img/test_bg.jpg" alt="Error bg.jpg" />
+         </div>
+
+         <div class="banner__contentBx">
+            <h5 class="banner__logoText">My Portfolio</h5>
+            <div>
+               <h4><span>Hello</span>, I'm</h4>
+               <h2>Kuzko Andrii</h2>
+               <h4>I'm a Front-Enb Web Developer</h4>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  dolores impedit quidem enim, culpa facilis incidunt nihil
+                  doloribus iusto, assumenda consequatur corporis, distinctio
+                  est beatae iste vel. Et, ducimus placeat! Asperiores tempora
+                  maiores incidunt provident ea pariatur architecto. Repellat
+                  magni quibusdam quos iste, dicta ad. Quo vero dolore facere
+                  sit, iure voluptatem! Quas itaque perferendis voluptatibus
+                  fugit eveniet, laborum architecto?
+               </p>
+               <a href="#" class="btn">About Me</a>
+            </div>
+            <ul class="sci">
+               <li>
+                  <a href="#"
+                     ><img src="./img/facebook.png" alt="Error facebook.png"
+                  /></a>
+               </li>
+               <li>
+                  <a href="#"
+                     ><img src="./img/twitter.png" alt="Error twitter.png"
+                  /></a>
+               </li>
+               <li>
+                  <a href="#"
+                     ><img src="./img/instagram.png" alt="Error instagram.png"
+                  /></a>
+               </li>
+            </ul>
+         </div>
+      </section>
+
       <section class="about" id="about">
-         <div class="contentBx wow animate__fadeInLeft" data-wow-duration="2s">
-            <h2 class="heading">About Us</h2>
-            <p class="text">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
-               dolorem commodi aliquid quos omnis repellendus facere voluptatum
-               possimus ad neque eveniet. Ipsum doloribus quis veritatis nulla
-               maxime quibusdam dolorem ea, vero iure, repellat nostrum modi
-               delectus suscipit rerum sit exercitationem distinctio cupiditate!
-               Aliquam velit nobis nihil amet repudiandae itaque libero eos ea
-               voluptatem corrupti dolores, rerum similique voluptate autem
-               voluptatibus. Recusandae, est cumque corrupti asperiores iure,
-               tenetur possimus sapiente qui quidem porro deserunt nesciunt.
-               Velit asperiores quis quia officiis explicabo?<br /><br />Lorem
-               ipsum dolor sit amet consectetur adipisicing elit. Dolorem illum
-               odit error excepturi officia necessitatibus placeat veniam aut,
-               facilis eaque eius ipsa fugit autem, amet quae minus voluptates
-               at, debitis fugiat consectetur aspernatur nisi! Quo et inventore
-               ad error nam sed atque incidunt ratione unde accusantium harum
-               qui fugiat nesciunt eos earum vel suscipit, quis tenetur facere
-               quia tempora ipsum hic nihil aspernatur. Rem quo soluta nihil at
-               eveniet. Ducimus eaque aspernatur, explicabo amet itaque
-               sapiente. Voluptas, nesciunt corrupti! Recusandae!
+         <div class="title white">
+            <h2>About Us</h2>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+               quas repellat alias saepe molestias facere! Dolorem nisi deserunt
+               porro sit molestiae sed magni voluptatibus ducimus, eligendi, hic
+               explicabo rem iusto!
             </p>
          </div>
-         <div
-            class="imgBx wow animate__fadeInRight"
-            data-wow-duration="2s"
-         ></div>
+
+         <div class="about__content">
+            <div class="textBx">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cupiditate maxime fugiat quos perspiciatis eos, non omnis
+                  reprehenderit nobis quibusdam beatae cum quaerat! Nobis dolore
+                  laboriosam voluptatem est dolorum a natus! Exercitationem
+                  rerum saepe et in sunt quod minus, ex facilis, voluptas soluta
+                  id dolores maxime vero architecto nisi odit optio, ad nemo
+                  quidem asperiores nostrum. Debitis molestiae tempora quia
+                  expedita?<br /><br />
+                  Praesentium est dolorem, labore ullam obcaecati corporis
+                  fugiat placeat quae nulla nobis. Libero cumque repudiandae
+                  omnis accusamus doloremque maiores sapiente nostrum. Inventore
+                  cumque nemo ex in placeat eius aut quod? Tempora modi cum
+                  libero cupiditate earum iusto voluptate ratione eum impedit
+                  saepe aspernatur, reiciendis fugiat consequatur recusandae
+                  ducimus necessitatibus temporibus blanditiis. Cum saepe
+                  consequuntur voluptates quibusdam repellat distinctio nisi
+                  voluptate.
+               </p>
+            </div>
+
+            <div class="imgBx">
+               <img src="./img/test_bg1.jpg" alt="Error bg1.jpg" />
+            </div>
+         </div>
       </section>
 
-      <!-- Services -->
       <section class="services" id="services">
-         <div class="wow animate__fadeInDown" data-wow-duration="2s">
-            <h2 class="heading">Our Services</h2>
-            <p class="text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Reprehenderit error animi explicabo tenetur tempore ullam quaerat
-               ipsam laborum nesciunt perspiciatis, nam repudiandae accusantium
-               odio qui expedita mollitia repellat? Corrupti quae itaque
-               excepturi repellat animi delectus a dignissimos accusantium iste
-               explicabo id aliquid tenetur facilis saepe tempore soluta, nulla
-               ex sunt sint? Recusandae esse, saepe voluptatibus consequuntur
-               officia cumque ad atque delectus enim eum suscipit doloremque
-               ipsum laborum dolore accusamus est reiciendis a sint fugit velit
-               ullam dolorem dicta dignissimos obcaecati?
+         <div class="title">
+            <h2>Our Services</h2>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Accusantium possimus sunt quos voluptate eos quae, ullam quis
+               nulla? Ducimus, sunt voluptate? Vel eaque quod delectus eum
+               minima laborum non enim?
             </p>
          </div>
-         <div class="container">
-            <div
-               class="serviceBx wow animate__fadeInLeft"
-               data-wow-duration="2s"
-            >
-               <div>
-                  <img src="img/icon1.png" alt="icon1.png error" />
-                  <h2>Design</h2>
-               </div>
+
+         <div class="services__content">
+            <div class="servicesBx">
+               <img src="./img/icon1.png" alt="Error icon1.png" />
+               <h2>Web Design</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
             </div>
-            <div class="serviceBx wow animate__fadeInUp" data-wow-duration="2s">
-               <div>
-                  <img src="img/icon2.png" alt="icon1.png error" />
-                  <h2>Development</h2>
-               </div>
+            <div class="servicesBx">
+               <img src="./img/icon2.png" alt="Error icon2.png" />
+               <h2>Web Development</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
             </div>
-            <div
-               class="serviceBx wow animate__fadeInRight"
-               data-wow-duration="2s"
-            >
-               <div>
-                  <img src="img/icon3.png" alt="icon1.png error" />
-                  <h2>Branding</h2>
-               </div>
+            <div class="servicesBx">
+               <img src="./img/icon3.png" alt="Error icon3.png" />
+               <h2>Android Apps</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
+            </div>
+            <div class="servicesBx">
+               <img src="./img/icon4.png" alt="Error icon4.png" />
+               <h2>Photography</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
+            </div>
+            <div class="servicesBx">
+               <img src="./img/icon5.png" alt="Error icon5.png" />
+               <h2>Content Writing</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
+            </div>
+            <div class="servicesBx">
+               <img src="./img/icon6.png" alt="Error icon6.png" />
+               <h2>Video Editing</h2>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cumque quaerat quis earum repellendus sit. Quas minus
+                  voluptatibus odit tempora quaerat, asperiores eius iure
+                  adipisci nisi, cum mollitia ratione magnam dolores.
+               </p>
             </div>
          </div>
       </section>
 
-      <!-- Technology -->
-      <section class="technology" id="technology">
-         <div class="contentBx wow animate__fadeIn" data-wow-duration="2s">
-            <h2 class="heading">We use cutting edge technolog</h2>
-            <p class="text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem
-               laboriosam nulla quisquam numquam aliquam ea sunt, tempora
-               dolorem, quam voluptatem perspiciatis animi ratione. Veritatis
-               saepe fuga voluptates nemo dolorem. Voluptas perspiciatis vitae
-               rem reprehenderit, ratione temporibus asperiores eius,
-               consequatur dolor provident, beatae doloremque dolore harum?
-               Tenetur eius vero error doloremque, modi minima corrupti unde
-               commodi impedit qui dolores excepturi. Est praesentium amet
-               ratione tenetur quo veniam, eaque iste voluptates incidunt nobis
-               voluptatibus eum sit culpa error natus et a.
+      <section class="work" id="work">
+         <div class="title">
+            <h2>Recent Work</h2>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Accusantium possimus sunt quos voluptate eos quae, ullam quis
+               nulla? Ducimus, sunt voluptate? Vel eaque quod delectus eum
+               minima laborum non enim?
             </p>
          </div>
-         <div class="imgBx wow animate__fadeIn" data-wow-duration="2s">
-            <img src="img/tech.png" alt="tech.png error" />
+
+         <div class="work__content">
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img1.jpg" alt="Error img1.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 01</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img2.jpg" alt="Error img2.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 02</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img3.jpg" alt="Error img3.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 03</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img4.jpg" alt="Error img4.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 04</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img5.jpg" alt="Error img5.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 05</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img6.jpg" alt="Error img6.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 06</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img7.jpg" alt="Error img7.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 07</h3>
+               </div>
+            </div>
+
+            <div class="workBx">
+               <div class="imgBx">
+                  <img src="./img/img8.jpg" alt="Error img8.jpg" />
+               </div>
+               <div class="textBx">
+                  <h3>Project 08</h3>
+               </div>
+            </div>
          </div>
       </section>
 
-      <!-- Client -->
-      <section class="client" id="client">
-         <div class="wow animate__fadeInDown" data-wow-duration="2s">
-            <h2 class="heading">Our Clients</h2>
-            <p class="text">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-               Expedita minus perferendis cum soluta porro fugiat excepturi
-               corrupti harum quas modi ullam temporibus, odio architecto
-               asperiores animi consequatur laboriosam et quisquam laborum
-               repellendus aut. Blanditiis distinctio alias fugit, vel doloribus
-               veniam suscipit et, pariatur architecto veritatis ut. Eos earum
-               aperiam saepe dolore laborum quis optio, ratione doloribus odio
-               fugit perferendis pariatur tempore dignissimos voluptas placeat
-               voluptatibus omnis. Repellat numquam adipisci tenetur illum,
-               corporis odio, laudantium nam quis minus assumenda nobis fuga.
+      <section class="contact" id="contact">
+         <div class="title white">
+            <h2>Contact Us</h2>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Accusantium possimus sunt quos voluptate eos quae, ullam quis
+               nulla? Ducimus, sunt voluptate? Vel eaque quod delectus eum
+               minima laborum non enim?
             </p>
          </div>
-         <div class="imgBx wow animate__fadeIn" data-wow-duration="2s">
-            <img src="img/brand1.png" alt="brand1.png error" />
-            <img src="img/brand2.png" alt="brand2.png error" />
-            <img src="img/brand3.png" alt="brand3.png error" />
-            <img src="img/brand4.png" alt="brand4.png error" />
-         </div>
-      </section>
 
-      <!-- Testimonials -->
-      <section class="testimonials" id="testimonials">
-         <h2 class="heading wow animate__fadeInDown" data-wow-duration="2s">
-            What Our Client says
-         </h2>
-         <div class="container">
-            <div
-               class="contentBx wow animate__fadeInLeft"
-               data-wow-duration="2s"
-            >
-               <div>
-                  <p>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Id modi, harum in atque voluptate qui veritatis nulla
-                     cumque repellat nostrum. Dolor ex hic fugit repudiandae
-                     placeat quos excepturi. Error, eos ullam quaerat quae totam
-                     quisquam voluptatem fuga! Saepe odit veritatis natus odio
-                     accusantium laborum animi eius facere quam? Quas, ullam!
-                  </p>
-                  <br /><br />
-                  <h3>Someone Famous</h3>
+         <div class="contact__form">
+            <div class="row">
+               <div class="col50">
+                  <input type="text" name="" placeholder="First Name" />
+               </div>
+               <div class="col50">
+                  <input type="text" name="" placeholder="Last Name" />
                </div>
             </div>
 
-            <div
-               class="contentBx wow animate__fadeInRight"
-               data-wow-duration="2s"
-            >
-               <div>
-                  <p>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Id modi, harum in atque voluptate qui veritatis nulla
-                     cumque repellat nostrum. Dolor ex hic fugit repudiandae
-                     placeat quos excepturi. Error, eos ullam quaerat quae totam
-                     quisquam voluptatem fuga! Saepe odit veritatis natus odio
-                     accusantium laborum animi eius facere quam? Quas, ullam!
-                  </p>
-                  <br /><br />
-                  <h3>Someone Famous</h3>
+            <div class="row">
+               <div class="col50">
+                  <input type="email" name="" placeholder="Email" />
+               </div>
+               <div class="col50">
+                  <input type="tel" name="" placeholder="Mobile No." />
                </div>
             </div>
-         </div>
-      </section>
 
-      <!-- Contact -->
-      <section
-         class="contact wow animate__fadeIn"
-         data-wow-duration="2s"
-         id="contact"
-      >
-         <h2 class="heading">Contact Us</h2>
-         <p class="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, cum
-            eius corporis minus molestiae eum quibusdam molestias doloribus
-            eaque ut ex obcaecati, voluptatibus iure culpa sunt. Ex similique
-            cumque voluptatum, porro ipsam provident ad velit rerum facere enim
-            eius quod praesentium, doloribus aut at eligendi eaque cum delectus
-            dignissimos dolor!
-         </p>
-      </section>
+            <div class="row">
+               <div class="col100">
+                  <textarea name="" id="" placeholder="Message"></textarea>
+               </div>
+            </div>
 
-      <section class="about">
-         <div class="contentBx redbg">
-            <div class="form wow animate__fadeInLeft" data-wow-duration="2s">
-               <div class="inputBx">
-                  <input type="text" name="" id="" placeholder="Full Name" />
-               </div>
-               <div class="inputBx">
-                  <input type="text" name="" id="" placeholder="Email Addres" />
-               </div>
-               <div class="inputBx">
-                  <input type="text" name="" id="" placeholder="Mobile No." />
-               </div>
-               <div class="inputBx">
-                  <textarea placeholder="Write your message here"></textarea>
-               </div>
-               <div class="inputBx">
+            <div class="row">
+               <div class="col100">
                   <input type="submit" value="Send" />
                </div>
             </div>
          </div>
-         <div class="imgBx2"></div>
       </section>
 
-      <!-- Footer -->
+      <a href="#home" class="toTop">
+         <div class="arrow"></div>
+      </a>
+
       <footer>
-         <p class="text">Design & Developed By Kuzko Andrii</p>
-         <ul>
-            <p class="text">Follow me on:</p>
-            <li>
-               <a href="#"
-                  ><img src="img/facebook.png" alt="facebook.png error"
-               /></a>
-            </li>
-            <li>
-               <a href="#"
-                  ><img src="img/twitter.png" alt="twitter.png error"
-               /></a>
-            </li>
-            <li>
-               <a href="#"
-                  ><img src="img/linkedin.png" alt="linkedin.png error"
-               /></a>
-            </li>
-         </ul>
+         <p>Copyright &#169; 2023 Kuzko Andrii. All Right Reserved.</p>
       </footer>
 
-      <script src="wow.js"></script>
-      <script>
-         wow = new WOW({
-            boxClass: "wow", // default
-            animateClass: "animated", // default
-            offset: 10, // default
-            mobile: true, // default
-            live: true, // default
-         });
-         wow.init();
-
-         window.addEventListener("scroll", () => {
-            const header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-         });
-
-         function toggleMenu() {
-            const navigation = document.querySelector(".navigation");
-            navigation.classList.toggle("active");
-         }
-      </script>
+      <script src="script.js"></script>
+      <script></script>
    </body>
 </html>
